@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+
+#navbar {
+    background-color: #ecf0f1;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+    text-decoration: none;
+}
+
+#wrapper{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.task{
+    padding: 25px;
+    border: 1px solid #ecf0f1;
+
+}
+
+.task h3{
+    margin-top: 0px;
+}
+
+.assignedMember{
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.assignedMember-left{
+    display:inline-block;
+}
+
+.assignedMember-right{
+    float:right;
+}
+
+.assignedMember-name{
+    font-weight: 700;
+}
+
+.assignedMember-status{
+    font-style: italic;
+}
+
+.assignedTask {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.assignedTask-left{
+    display:inline-block;
+}
+
+.assignedTask-right{
+    float:right;
+}
+
+.assignedTask-name{
+    font-weight: 700;
+}
+
+.assignedTask-completed{
+    font-style: italic;
+}
